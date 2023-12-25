@@ -23,7 +23,7 @@ section{
 section div{
     width: 200px;
     height: 200px;
-    background-color: steelblue;
+    background-color: red;
 }
 article button{
     padding: 10px 60px;
