@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+article{
+    display: flex;
+    align-items: center;
+    width: 700px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    margin: 50px auto;
+    gap: 20px;
+}
+section div{
+    width: 200px;
+    height: 200px;
+    background-color: steelblue;
+}
+article button{
+    padding: 10px 60px;
+    border: none;
+    border-radius: 20px;
+    background-color: seagreen;
+    color: white;
+}
+aside{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    margin-top: 50px;
+}
+aside button{
+    padding: 12px 65px;
+    background-color: rgba(61, 62, 63, 0.61);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+h3{
+    color: white;
+    
+}
+
+.indicator{
+    width: 150px;
+    background-color: rgb(0, 174, 23);
+    position: absolute;
+    right: 160px;
+    height: 100%;
+    z-index: -1;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.hide{
+  display: none;
+}
+.show{
+    display: block;
+}
+.easy{
+   right: 10px;
+}
+.hard{
+  right: 160px;
+}
+.intro{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+h1{
+    color: white;
+}
